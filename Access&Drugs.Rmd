@@ -1,0 +1,192 @@
+---
+title: "Antimalaria_drug"
+author: "Martin"
+date: "2024-07-18"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+rm( list =  ls() )
+
+library(readxl)
+library(tidyverse)
+library(dplyr)
+library(haven)
+library(labelled)
+```
+
+```{r}
+surveys_dir    <- "C:/Users/Martin Habimana/Desktop/Data"
+```
+
+```{r}
+rwanda_children_data_2020 <- read_dta (file.path(surveys_dir,"RWKR81FL.DTA"))
+# access dictionary
+
+children_dictionary_2020 <- labelled::generate_dictionary (rwanda_children_data_2020)
+ # View(children_dictionary_2003)
+```
+
+```{r}
+#################
+# HEALTH ACCESS #
+#################
+
+# selecting variables of interest 
+
+children_health_access_2020= children_dictionary_2020 %>% 
+  select(variable, label) %>% 
+  filter(variable=="h32a"| variable=="h32b"| variable=="h32c"| variable=="h32d"| variable=="h32e"| 
+           variable=="h32f"| variable=="h32g"| variable=="h32h"| variable=="h32i"| variable=="h32j"| 
+           variable=="h32k"| variable=="h32l"| variable=="h32m"| variable=="h32n"| variable=="h32o"| variable=="h32p"|
+           variable=="h32q"| variable=="h32r"| variable=="h32s"| variable=="h32t"| variable=="h32u"| variable=="h32v"| 
+           variable=="h32w"| variable=="h32x"| variable=="h32y"| variable=="h32z")
+
+# View(children_health_access_2020)
+
+# adding new variables names and labels
+children_access_newvariables_2020 = children_health_access_2020 %>% 
+  mutate(newvarname= case_when(label  == "fever/cough: government referral hospital" ~ "opd",
+                               label  == "fever/cough: health center" ~ "govcntr",
+                               label  == "fever/cough: govt dispensary" ~ "govcntr",
+                               label  == "ever/cough: other public sector" ~ "hcnobeds",
+                               label  == "fever/cough: private clinic" ~ "hcbeds",
+                               label  == "fever/cough: private pharmacy" ~ "self",
+                               label  == "fever/cough: private mobile cl" ~ "hcnobeds",
+                               label  == "fever/cough: community health worker" ~ "chw",
+                               label  == "fever/cough: mission hospital/clinic" ~ "hcbeds",
+                               label  == "fever/cough: other private medical" ~ "hcnobeds",
+                               label  == "fever/cough: kiosk/shop" ~ "self",
+                               label  == "fever/cough: traditional healer" ~ "none",
+                               label  == "fever/cough: friend/relative" ~ "self",
+                               label  == "fever/cough: other" ~ "none",
+                               label  == "fever/cough: provincial/district hospital" ~ "opd",
+                               label  == "fever/cough: health post" ~ "hcnobeds",
+                               label  == "fever/cough: other public sector" ~ "hcnobeds",
+                               label  == "fever/cough: private dispensary" ~ "hcnobeds",
+                               label  == "fever/cough: private polyclinic" ~ "hcbeds",
+                               label  == "fever/cough: church" ~ "none",
+                               .default = NA )) %>% 
+  mutate(newvalue= case_when(newvarname  == "opd" ~ 7,
+                             newvarname  == "govcntr" ~ 5,
+                             newvarname  == "hcnobeds" ~ 4,
+                             newvarname  == "hcbeds" ~ 6,
+                             newvarname  == "self" ~ 2,
+                             newvarname  == "chw" ~ 3, 
+                             newvarname  == "none" ~ 1))
+
+
+
+children_access_newvariables_2020 = children_access_newvariables_2020 %>% 
+  mutate(country="Rwanda",
+         filename="RWKR81FL.DTA",
+         phase=5,
+         startyear=2019,
+         endyear=2020)
+
+children_access_newvariables_2020
+```
+
+# Medecine
+
+```{r}
+#############
+# MEDICINES #
+#############
+
+# selecting variables of interest 
+
+children_medicines_2020= children_dictionary_2020%>% 
+  select(variable, label) %>% 
+  filter(variable=="h37a"| variable=="h37b"| variable=="h37c"|variable=="h37aa" |variable=="h37d"| variable=="h37e"| variable=="h37f"| variable=="h37g"| variable=="h37h"|
+           variable=="h37i"| variable=="h37j"| variable=="h37k"| variable=="h37l"| variable=="h37m"| variable=="h37n"| variable=="h37o"| variable=="h37p"|
+           variable=="h37x"| variable=="h37y"| variable=="h37z")
+
+
+# adding new variables names and labels
+
+children_medicines_newvariables_2020 = children_medicines_2020 %>% 
+  mutate(newvarname= case_when(label  == "al taken for fever" ~ "fline",
+                               label  == "combination with artemisinin taken for fever/cough" ~ "fline", 
+                               label  == "combination with artemisinin taken for fever"~ "fline",
+                               label  == "dhap taken for fever" ~ "fline",
+                               
+                               label  == "nothing taken for fever/convulsion" ~ "none",
+                               label  == "nothing taken for fever/cough" ~ "none",
+                               label  == "nothing taken for fever" ~ "none",
+                               label  == "nothing taken and didn't seek treatment for fever/cough" ~ "none",
+                               label  == "nothing taken and didn't seek treatment for fever/cough"~ "none",
+                               
+                               label  == "acetaminophen taken for fever/cough" ~ "other",
+                               label  == "acetaminophen/paracetamol/panadol taken for fever/cough" ~ "other",
+                               label  == "acetaminophen/paracetamol/panadol taken for fever"~ "other",
+                               
+                               label  == "amoxicillin taken for fever"~ "other",
+                               label  == "antibiotic injection taken for fever"~ "other",
+                               label  == "antibiotic pill/syrup taken for fever"~ "other",
+                               label  == "antibiotic pill/syrup taken for fever/cough" ~ "other",
+                               label  == "antibiotic injection taken for fever/cough" ~ "other",
+                               label  == "aspirin taken for fever" ~ "other",
+                               label  == "aspirin taken fever/cough" ~ "other",
+                               label  == "aspirin taken for fever/cough" ~ "other",
+                               label  == "cotrimoxazole taken for fever" ~ "other", 
+                               label  == "cotrimoxazole taken for fever/cough" ~ "other",
+                               label  == "ibuprofen taken for fever" ~ "other",
+                               label  == "ibuprofen taken fever/cough" ~ "other",
+                               label  == "ibuprofen taken for fever/cough" ~ "other",
+                               label  == "injection taken for fever" ~ "other",
+                               label  == "other taken for fever/convulsion" ~ "other",
+                               label  == "other taken for fever/cough" ~ "other",
+                               label  == "other taken for fever" ~ "other",
+                               label  == "other injection/iv taken for fever"~ "other",
+                               label  == "other pill/syrup taken for fever"~ "other",
+                               label  == "oxygen taken for fever" ~ "other",
+                               label  == "paracetamol/panadol/acetaminophen taken for fever"~ "other",
+                               label  == "pills/syrup taken for fever" ~ "other",
+                               label  == "amodiaquine taken for fever" ~ "othrantimal",
+                               label  == "amodiaquine taken for fever/cough" ~ "othrantimal", 
+                               label  == "artesunate rectal taken for fever" ~ "othrantimal",
+                               label  == "artesunate injection/iv taken for fever" ~ "othrantimal",
+                               label  == "artesunate ( rectal ) taken for fever/cough" ~ "othrantimal",
+                               label  == "artesunate ( injection ) taken for fever/cough" ~ "othrantimal", 
+                               label  == "chloroquine taken for fever" ~ "othrantimal",
+                               label  == "chloroquine taken for fever/cough" ~ "othrantimal", 
+                               label  == "fansidar taken for fever"~ "othrantimal",
+                               label  == "fansidar taken for fever/cough" ~ "othrantimal",
+                               label  == "other antimalarial taken for fever" ~ "othrantimal",
+                               label  == "other antimalarial taken fever/cough" ~ "othrantimal",
+                               label  == "other antimalarial taken for fever/cough" ~ "othrantimal",
+                               label  == "other act (not al or dhap) taken for fever" ~ "othrantimal",
+                               label  == "quinine pills taken for fever" ~ "othrantimal",
+                               label  == "quinine taken for fever" ~ "othrantimal",
+                               label  == "quinine taken for fever/cough" ~ "othrantimal",
+                               label  == "quinine ( pills ) taken for fever/cough" ~ "othrantimal",
+                               label  == "quinine ( injection/iv )taken for fever/cough" ~ "othrantimal",
+                               label  == "sp/fansidar taken for fever/cough" ~ "othrantimal",
+                               label  == "sp/fansidar taken for fever" ~ "othrantimal",
+                               .default = NA )) %>% 
+  
+  mutate(newvalue= case_when(newvarname  == "fline" ~ 4,
+                             newvarname  == "othrantimal" ~ 3,
+                             newvarname  == "other" ~ 2,
+                             newvarname  == "none" ~ 1))
+
+children_medicines_newvariables_2020 = children_medicines_newvariables_2020 %>% 
+  mutate(country="Rwanda",
+         filename="RWKR81FL.DTA",
+         phase=5,
+         startyear=2019,
+         endyear=2020)
+
+children_medicines_newvariables_2020
+
+```
+
+
+
+
+
