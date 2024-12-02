@@ -1,0 +1,25 @@
+varname;varlabel;newvarname;newvalue;country;filename;phase;startyear;endyear
+h32a;Fever/cough: referral hospital;opd;7;rwanda;RWKR6IFL.DTA;3;2013;2013
+h32b;Fever/cough: district hospital;opd;7;rwanda;RWKR6IFL.DTA;3;2013;2013
+h32c;Fever/cough: health center;govcntr;5;rwanda;RWKR6IFL.DTA;3;2013;2013
+h32d;Fever/cough: health post;hcnobeds;4;rwanda;RWKR6IFL.DTA;3;2013;2013
+h32e;Fever/cough: outreach;NA;NA;rwanda;RWKR6IFL.DTA;3;2013;2013
+h32f;Fever/cough: community health worker;chw;3;rwanda;RWKR6IFL.DTA;3;2013;2013
+h32g;Fever/cough: Other public facility;hcnobeds;4;rwanda;RWKR6IFL.DTA;3;2013;2013
+h32h;NA - Fever/cough: CS public sector;NA;NA;rwanda;RWKR6IFL.DTA;3;2013;2013
+h32i;NA - Fever/cough: CS public sector;NA;NA;rwanda;RWKR6IFL.DTA;3;2013;2013
+h32j;NA - Fever/cough: private hospital/ clinic;NA;NA;rwanda;RWKR6IFL.DTA;3;2013;2013
+h32k;Fever/cough: private pharmacy;self;2;rwanda;RWKR6IFL.DTA;3;2013;2013
+h32l;NA - Fever/cough: private doctor;NA;NA;rwanda;RWKR6IFL.DTA;3;2013;2013
+h32m;Fever/cough: polyclinic;hcbeds;6;rwanda;RWKR6IFL.DTA;3;2013;2013
+h32n;Fever/cough: clinic;hcbeds;6;rwanda;RWKR6IFL.DTA;3;2013;2013
+h32o;Fever/cough: dispensary;hcnobeds;4;rwanda;RWKR6IFL.DTA;3;2013;2013
+h32p;Fever/cough: other private medical;hcnobeds;4;rwanda;RWKR6IFL.DTA;3;2013;2013
+h32q;NA - Fever/cough: CS private medical;NA;NA;rwanda;RWKR6IFL.DTA;3;2013;2013
+h32r;NA - Fever/cough: CS private medical;NA;NA;rwanda;RWKR6IFL.DTA;3;2013;2013
+h32s;Fever/cough: Kiosk;self;2;rwanda;RWKR6IFL.DTA;3;2013;2013
+h32t;Fever/cough: traditional practitioner;none;1;rwanda;RWKR6IFL.DTA;3;2013;2013
+h32u;Fever/cough: CS other sector;hcnobeds;4;rwanda;RWKR6IFL.DTA;3;2013;2013
+h32v;Fever/cough: Friend / relative;self;2;rwanda;RWKR6IFL.DTA;3;2013;2013
+h32w;NA - Fever/cough: CS other sector;NA;NA;rwanda;RWKR6IFL.DTA;3;2013;2013
+h32x;Fever/cough: other;none;1;rwanda;RWKR6IFL.DTA;3;2013;2013

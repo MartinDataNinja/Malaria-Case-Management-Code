@@ -1,0 +1,25 @@
+varname;varlabel;newvarname;newvalue;country;filename;phase;startyear;endyear
+h32a;fever/cough: government referral hospital;opd;7;rwanda;RWKR81FL.DTA;6;2019;2020
+h32b;fever/cough: provincial/district hospital;opd;7;rwanda;RWKR81FL.DTA;6;2019;2020
+h32c;fever/cough: health center;govcntr;5;rwanda;RWKR81FL.DTA;6;2019;2020
+h32d;fever/cough: health post;hcnobeds;4;rwanda;RWKR81FL.DTA;6;2019;2020
+h32e;fever/cough: outreach;NA;NA;rwanda;RWKR81FL.DTA;6;2019;2020
+h32f;fever/cough: community health worker;chw;3;rwanda;RWKR81FL.DTA;6;2019;2020
+h32g;fever/cough: other public sector;hcnobeds;4;rwanda;RWKR81FL.DTA;6;2019;2020
+h32h;na - fever/cough: cs public sector;NA;NA;rwanda;RWKR81FL.DTA;6;2019;2020
+h32i;na - fever/cough: cs public sector;NA;NA;rwanda;RWKR81FL.DTA;6;2019;2020
+h32j;fever/cough: private polyclinic;hcbeds;6;rwanda;RWKR81FL.DTA;6;2019;2020
+h32k;fever/cough: private pharmacy;self;2;rwanda;RWKR81FL.DTA;6;2019;2020
+h32l;fever/cough: private clinic;hcbeds;6;rwanda;RWKR81FL.DTA;6;2019;2020
+h32m;fever/cough: private dispensary;hcnobeds;4;rwanda;RWKR81FL.DTA;6;2019;2020
+h32n;fever/cough: other private medical;hcnobeds;4;rwanda;RWKR81FL.DTA;6;2019;2020
+h32o;na - fever/cough: cs private medical;NA;NA;rwanda;RWKR81FL.DTA;6;2019;2020
+h32p;na - fever/cough: cs private medical;NA;NA;rwanda;RWKR81FL.DTA;6;2019;2020
+h32q;na - fever/cough: cs private medical;NA;NA;rwanda;RWKR81FL.DTA;6;2019;2020
+h32r;na - fever/cough: cs private medical;NA;NA;rwanda;RWKR81FL.DTA;6;2019;2020
+h32s;fever/cough: kiosk/shop;self;2;rwanda;RWKR81FL.DTA;6;2019;2020
+h32t;fever/cough: traditional healer;none;1;rwanda;RWKR81FL.DTA;6;2019;2020
+h32u;fever/cough: church;none;1;rwanda;RWKR81FL.DTA;6;2019;2020
+h32v;fever/cough: friend/relative;self;2;rwanda;RWKR81FL.DTA;6;2019;2020
+h32w;na - fever/cough: cs other sector;NA;NA;rwanda;RWKR81FL.DTA;6;2019;2020
+h32x;fever/cough: other;none;1;rwanda;RWKR81FL.DTA;6;2019;2020

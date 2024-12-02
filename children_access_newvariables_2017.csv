@@ -1,0 +1,25 @@
+varname;varlabel;newvarname;newvalue;country;filename;phase;startyear;endyear
+h32a;fever/cough: ref. hospital;opd;7;rwanda;RWKR7AFL.DTA;4;2017;2017
+h32b;fever/cough: prov./dist. hospital;opd;7;rwanda;RWKR7AFL.DTA;4;2017;2017
+h32c;fever/cough: health center;govcntr;5;rwanda;RWKR7AFL.DTA;4;2017;2017
+h32d;fever/cough: health post;hcnobeds;4;rwanda;RWKR7AFL.DTA;4;2017;2017
+h32e;fever/cough: outreach;NA;NA;rwanda;RWKR7AFL.DTA;4;2017;2017
+h32f;fever/cough: chw;chw;3;rwanda;RWKR7AFL.DTA;4;2017;2017
+h32g;fever/cough: other public facility;hcnobeds;4;rwanda;RWKR7AFL.DTA;4;2017;2017
+h32h;na - fever/cough: cs public sector;NA;NA;rwanda;RWKR7AFL.DTA;4;2017;2017
+h32i;na - fever/cough: cs public sector;NA;NA;rwanda;RWKR7AFL.DTA;4;2017;2017
+h32j;fever/cough: polyclinic;hcbeds;6;rwanda;RWKR7AFL.DTA;4;2017;2017
+h32k;fever/cough: private pharmacy;self;2;rwanda;RWKR7AFL.DTA;4;2017;2017
+h32l;na - fever/cough: private doctor;NA;NA;rwanda;RWKR7AFL.DTA;4;2017;2017
+h32m;fever/cough: clinic;hcbeds;6;rwanda;RWKR7AFL.DTA;4;2017;2017
+h32n;fever/cough: dispensary;hcnobeds;4;rwanda;RWKR7AFL.DTA;4;2017;2017
+h32o;fever/cough: other private medical facility;hcnobeds;4;rwanda;RWKR7AFL.DTA;4;2017;2017
+h32p;na - fever/cough: cs private medical;NA;NA;rwanda;RWKR7AFL.DTA;4;2017;2017
+h32q;na - fever/cough: cs private medical;NA;NA;rwanda;RWKR7AFL.DTA;4;2017;2017
+h32r;na - fever/cough: cs private medical;NA;NA;rwanda;RWKR7AFL.DTA;4;2017;2017
+h32s;fever/cough: kiosk/shop;self;2;rwanda;RWKR7AFL.DTA;4;2017;2017
+h32t;fever/cough: traditional healer;none;1;rwanda;RWKR7AFL.DTA;4;2017;2017
+h32u;fever/cough: church;none;1;rwanda;RWKR7AFL.DTA;4;2017;2017
+h32v;fever/cough: friend/relative;self;2;rwanda;RWKR7AFL.DTA;4;2017;2017
+h32w;na - fever/cough: cs other sector;NA;NA;rwanda;RWKR7AFL.DTA;4;2017;2017
+h32x;fever/cough: other;none;1;rwanda;RWKR7AFL.DTA;4;2017;2017

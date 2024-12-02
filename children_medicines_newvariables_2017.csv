@@ -1,0 +1,23 @@
+varname;varlabel;newvarname;newvalue;country;filename;phase;startyear;endyear
+ml13a;na - fansidar taken for fever;NA;NA;rwanda;RWKR7AFL.DTA;4;2017;2017
+ml13b;na - chloroquine taken for fever;NA;NA;rwanda;RWKR7AFL.DTA;4;2017;2017
+ml13c;na - amodiaquine taken for fever;NA;NA;rwanda;RWKR7AFL.DTA;4;2017;2017
+ml13d;quinine taken for fever;othrantimal;3;rwanda;RWKR7AFL.DTA;4;2017;2017
+ml13da;quinine injection/iv taken for fever;othrantimal;3;rwanda;RWKR7AFL.DTA;4;2017;2017
+ml13e;combination with artemisinin taken for fever;fline;4;rwanda;RWKR7AFL.DTA;4;2017;2017
+ml13aa;artesunate rectal taken for fever;othrantimal;3;rwanda;RWKR7AFL.DTA;4;2017;2017
+ml13ab;artesunate injection/iv taken for fever;othrantimal;3;rwanda;RWKR7AFL.DTA;4;2017;2017
+ml13f;na - cs antimalarial taken for fever;NA;NA;rwanda;RWKR7AFL.DTA;4;2017;2017
+ml13g;na - cs antimalarial taken for fever;NA;NA;rwanda;RWKR7AFL.DTA;4;2017;2017
+ml13h;other antimalarial taken for fever;othrantimal;3;rwanda;RWKR7AFL.DTA;4;2017;2017
+ml13i;antibiotic pill/syrup taken for fever;other;2;rwanda;RWKR7AFL.DTA;4;2017;2017
+ml13j;antibiotic injection taken for fever;other;2;rwanda;RWKR7AFL.DTA;4;2017;2017
+ml13k;aspirin taken for fever;other;2;rwanda;RWKR7AFL.DTA;4;2017;2017
+ml13l;acetaminophen/paracetamol/panadol taken for fever;other;2;rwanda;RWKR7AFL.DTA;4;2017;2017
+ml13m;ibuprofen taken for fever;other;2;rwanda;RWKR7AFL.DTA;4;2017;2017
+ml13n;na - cs other taken for fever;NA;NA;rwanda;RWKR7AFL.DTA;4;2017;2017
+ml13o;na - cs other taken for fever;NA;NA;rwanda;RWKR7AFL.DTA;4;2017;2017
+ml13p;na - cs other taken for fever;NA;NA;rwanda;RWKR7AFL.DTA;4;2017;2017
+ml13x;other taken for fever;other;2;rwanda;RWKR7AFL.DTA;4;2017;2017
+ml13y;nothing taken and didn't seek treatment for fever/cough;none;1;rwanda;RWKR7AFL.DTA;4;2017;2017
+ml13z;don't know if or what was taken for fever;NA;NA;rwanda;RWKR7AFL.DTA;4;2017;2017

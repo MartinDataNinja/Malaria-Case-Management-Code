@@ -1,0 +1,12 @@
+varname;varlabel;newvarname;newvalue;country;filename;phase;startyear;endyear
+h37a;fansidar taken for fever;fline;4;rwanda;RWKR53FL.DTA;3;2005;2005
+h37b;chloroquine taken for fever;othrantimal;3;rwanda;RWKR53FL.DTA;3;2005;2005
+h37c;aspirin taken for fever;other;2;rwanda;RWKR53FL.DTA;3;2005;2005
+h37d;ibuprofen/acetaminophen taken for fever;other;2;rwanda;RWKR53FL.DTA;3;2005;2005
+h37e;amodiaquine taken for fever - country specific;othrantimal;3;rwanda;RWKR53FL.DTA;3;2005;2005
+h37f;quinine taken for fecer - country specific;othrantimal;3;rwanda;RWKR53FL.DTA;3;2005;2005
+h37g;panadol taken for fever - country specific;other;2;rwanda;RWKR53FL.DTA;3;2005;2005
+h37h;na - country specific taken for fever;NA;NA;rwanda;RWKR53FL.DTA;3;2005;2005
+h37x;other taken for fever;other;2;rwanda;RWKR53FL.DTA;3;2005;2005
+h37y;nothing taken for fever;none;1;rwanda;RWKR53FL.DTA;3;2005;2005
+h37z;don't know if or what was taken;NA;NA;rwanda;RWKR53FL.DTA;3;2005;2005

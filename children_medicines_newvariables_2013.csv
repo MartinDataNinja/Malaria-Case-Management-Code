@@ -1,0 +1,20 @@
+varname;varlabel;newvarname;newvalue;country;filename;phase;startyear;endyear
+ml13a;NA - Fansidar taken for fever/cough;NA;NA;rwanda;RWKR6IFL.DTA;3;2013;2013
+ml13b;NA - Chloroquine taken for fever/cough;NA;NA;rwanda;RWKR6IFL.DTA;3;2013;2013
+ml13c;NA - Amodiaquine taken for fever/cough;NA;NA;rwanda;RWKR6IFL.DTA;3;2013;2013
+ml13d;Quinine taken for fever/cough;othrantimal;3;rwanda;RWKR6IFL.DTA;3;2013;2013
+ml13e;Combination with artemisinin taken for fever/cough;fline;4;rwanda;RWKR6IFL.DTA;3;2013;2013
+ml13f;Primo antimalarial taken for fever/cough;othrantimal;3;rwanda;RWKR6IFL.DTA;3;2013;2013
+ml13g;Arthemether taken for feverr/cough;fline;4;rwanda;RWKR6IFL.DTA;3;2013;2013
+ml13h;Other antimalarial taken for fever/cough;othrantimal;3;rwanda;RWKR6IFL.DTA;3;2013;2013
+ml13i;Antibiotic pill/syrup taken for fever/cough;other;2;rwanda;RWKR6IFL.DTA;3;2013;2013
+ml13j;Antibiotic injection taken for fever/cough;other;2;rwanda;RWKR6IFL.DTA;3;2013;2013
+ml13k;Aspirin taken for fever/cough;other;2;rwanda;RWKR6IFL.DTA;3;2013;2013
+ml13l;Acetaminophen/paracetamol/panadol taken for fever/cough;other;2;rwanda;RWKR6IFL.DTA;3;2013;2013
+ml13m;Ibuprofen taken for fever/cough;other;2;rwanda;RWKR6IFL.DTA;3;2013;2013
+ml13n;NA - CS other taken for fever/cough;NA;NA;rwanda;RWKR6IFL.DTA;3;2013;2013
+ml13o;NA - CS other taken for fever/cough;NA;NA;rwanda;RWKR6IFL.DTA;3;2013;2013
+ml13p;NA - CS other taken for fever/cough;NA;NA;rwanda;RWKR6IFL.DTA;3;2013;2013
+ml13x;Other taken for fever/cough;other;2;rwanda;RWKR6IFL.DTA;3;2013;2013
+ml13y;Nothing taken for fever/cough;none;1;rwanda;RWKR6IFL.DTA;3;2013;2013
+ml13z;Don't know if or what was taken for fever/cough;NA;NA;rwanda;RWKR6IFL.DTA;3;2013;2013

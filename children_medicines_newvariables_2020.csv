@@ -1,0 +1,21 @@
+varname;varlabel;newvarname;newvalue;country;filename;phase;startyear;endyear
+h37a;na - sp/fansidar taken for fever;;;rwanda;RWKR81FL.DTA;6;2019;2020
+h37b;na - chloroquine taken for fever;;;rwanda;RWKR81FL.DTA;6;2019;2020
+h37c;na - amodiaquine taken for fever;;;rwanda;RWKR81FL.DTA;6;2019;2020
+h37d;quinine taken for fever;othrantimal;3;rwanda;RWKR81FL.DTA;6;2019;2020
+h37e;combination with artemisinin taken for fever;fline;4;rwanda;RWKR81FL.DTA;6;2019;2020
+h37aa;artesunate rectal taken for fever;othrantimal;3;rwanda;RWKR81FL.DTA;6;2019;2020
+h37f;na - cs antimalarial taken for fever;;;rwanda;RWKR81FL.DTA;6;2019;2020
+h37g;na - cs antimalarial taken for fever;;;rwanda;RWKR81FL.DTA;6;2019;2020
+h37h;other antimalarial taken for fever;othrantimal;3;rwanda;RWKR81FL.DTA;6;2019;2020
+h37i;antibiotic pill/syrup taken for fever;other;2;rwanda;RWKR81FL.DTA;6;2019;2020
+h37j;antibiotic injection taken for fever;other;2;rwanda;RWKR81FL.DTA;6;2019;2020
+h37k;aspirin taken for fever;other;2;rwanda;RWKR81FL.DTA;6;2019;2020
+h37l;acetaminophen/paracetamol/panadol taken for fever;other;2;rwanda;RWKR81FL.DTA;6;2019;2020
+h37m;ibuprofen taken for fever;other;2;rwanda;RWKR81FL.DTA;6;2019;2020
+h37n;cs other taken for fever;;;rwanda;RWKR81FL.DTA;6;2019;2020
+h37o;na - cs other for fever/cough;;;rwanda;RWKR81FL.DTA;6;2019;2020
+h37p;na - cs other for fever/cough;;;rwanda;RWKR81FL.DTA;6;2019;2020
+h37x;other taken for fever;other;2;rwanda;RWKR81FL.DTA;6;2019;2020
+h37y;nothing taken and didn't seek treatment for fever/cough;none;1;rwanda;RWKR81FL.DTA;6;2019;2020
+h37z;don't know if or what was taken for fever;;;rwanda;RWKR81FL.DTA;6;2019;2020

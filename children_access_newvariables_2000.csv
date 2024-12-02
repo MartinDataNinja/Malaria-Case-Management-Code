@@ -1,0 +1,25 @@
+varname;varlabel;newvarname;newvalue;country;filename;phase;startyear;endyear
+h32a;fever/cough: government hosp.;opd;7;rwanda;RWKR41FL.DTA;2;2000;2000
+h32b;fever/cough: govt health center;govcntr;5;rwanda;RWKR41FL.DTA;2;2000;2000
+h32c;fever/cough: govt health post;hcnobeds;4;rwanda;RWKR41FL.DTA;2;2000;2000
+h32d;fever/cough: mobile clinic-na;NA;NA;rwanda;RWKR41FL.DTA;2;2000;2000
+h32e;fever/cough: comm.health worker;chw;3;rwanda;RWKR41FL.DTA;2;2000;2000
+h32f;fever/cough: dbc worker;NA;NA;rwanda;RWKR41FL.DTA;2;2000;2000
+h32g;fever/cough: cs public sec-na;NA;NA;rwanda;RWKR41FL.DTA;2;2000;2000
+h32h;fever/cough: cs public sec-na;NA;NA;rwanda;RWKR41FL.DTA;2;2000;2000
+h32i;fever/cough: other public sector;hcnobeds;4;rwanda;RWKR41FL.DTA;2;2000;2000
+h32j;fever/cough: private hosp/clin.;hcbeds;6;rwanda;RWKR41FL.DTA;2;2000;2000
+h32k;fever/cough: private pharmacy;self;2;rwanda;RWKR41FL.DTA;2;2000;2000
+h32l;fever/cough: private doctor;hcbeds;6;rwanda;RWKR41FL.DTA;2;2000;2000
+h32m;fever/cough: private mobil-na;NA;NA;rwanda;RWKR41FL.DTA;2;2000;2000
+h32n;fever/cough: comm.health w-na;NA;NA;rwanda;RWKR41FL.DTA;2;2000;2000
+h32o;fever/cough: arbef clinic;hcbeds;6;rwanda;RWKR41FL.DTA;2;2000;2000
+h32p;fever/cough: private infirmerary;hcnobeds;4;rwanda;RWKR41FL.DTA;2;2000;2000
+h32q;fever/cough: cs med.priv s-na;NA;NA;rwanda;RWKR41FL.DTA;2;2000;2000
+h32r;fever/cough: other med.priv sect.;hcnobeds;4;rwanda;RWKR41FL.DTA;2;2000;2000
+h32s;fever/cough: shop;self;2;rwanda;RWKR41FL.DTA;2;2000;2000
+h32t;fever/cough: traditional pract.;none;1;rwanda;RWKR41FL.DTA;2;2000;2000
+h32u;fever/cough: cs oth.priv s-na;NA;NA;rwanda;RWKR41FL.DTA;2;2000;2000
+h32v;fever/cough: cs oth.priv s-na;NA;NA;rwanda;RWKR41FL.DTA;2;2000;2000
+h32w;fever/cough: cs oth.priv s-na;NA;NA;rwanda;RWKR41FL.DTA;2;2000;2000
+h32x;fever/cough: other;none;1;rwanda;RWKR41FL.DTA;2;2000;2000
